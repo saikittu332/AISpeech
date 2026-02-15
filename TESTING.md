@@ -620,7 +620,7 @@ jobs:
     
     steps:
     - name: Checkout code
-      uses: actions/checkout@v3
+      uses: actions/checkout@v4
     
     - name: Select Xcode version
       run: sudo xcode-select -s /Applications/Xcode_14.2.app
@@ -644,7 +644,7 @@ jobs:
     
     - name: Archive build logs
       if: always()
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: build-logs
         path: |
