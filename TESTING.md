@@ -10,7 +10,7 @@ Before you begin testing, ensure you have:
 - **Xcode** 13.0 or later installed
 - Basic familiarity with Xcode interface
 
-> **💻 Windows Users:** Don't have a Mac? See the [Testing on Windows](#testing-on-windows) section below for alternative options including cloud-based Macs, CI/CD testing, and physical device testing.
+> **💻 Windows Users:** Don't have a Mac? See the [Windows Testing Quick Guide](WINDOWS-TESTING.md) for a concise overview, or the [Testing on Windows](#testing-on-windows) section below for detailed instructions including cloud-based Macs, GitHub Actions (FREE), and physical device testing.
 
 ## Quick Start - Testing in Simulator
 

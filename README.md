@@ -52,7 +52,7 @@ AISpeech is a complete, production-ready iOS application that provides real-time
 - Swift 5.5+
 - Active internet connection for AI features
 
-> **💻 Windows Users:** Don't have macOS? See [Testing on Windows](TESTING.md#testing-on-windows) in the testing guide for cloud Mac services, GitHub Actions, and other alternatives.
+> **💻 Windows Users:** Don't have macOS? See the [Windows Testing Quick Guide](WINDOWS-TESTING.md) or the detailed [Testing on Windows](TESTING.md#testing-on-windows) section for cloud Mac services, GitHub Actions (FREE), and other alternatives.
 
 ## Installation
 
