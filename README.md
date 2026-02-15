@@ -52,9 +52,11 @@ AISpeech is a complete, production-ready iOS application that provides real-time
 - Swift 5.5+
 - Active internet connection for AI features
 
+> **💻 Windows Users:** Don't have macOS? See the [Windows Testing Quick Guide](WINDOWS-TESTING.md) or the detailed [Testing on Windows](TESTING.md#testing-on-windows) section for cloud Mac services, GitHub Actions (FREE), and other alternatives.
+
 ## Installation
 
-### Using Xcode
+### Using Xcode (macOS Required)
 
 1. Clone the repository:
 ```bash
@@ -67,9 +69,11 @@ cd AISpeech
 open AISpeech.xcodeproj
 ```
 
-3. Select your target device or simulator
+3. Select your target device or simulator (iPhone 14 recommended)
 
 4. Build and run (⌘R)
+
+5. For detailed testing instructions, see [TESTING.md](TESTING.md)
 
 ### Using Swift Package Manager
 
@@ -216,6 +220,16 @@ print("Summary: \(result.summary ?? "N/A")")
 ```
 
 ## Testing
+
+### Testing in Simulator
+
+For comprehensive instructions on testing the app in an iOS simulator, see **[TESTING.md](TESTING.md)**.
+
+Quick start:
+1. Open project in Xcode: `xed .`
+2. Select iOS simulator (iPhone 14 recommended)
+3. Press ⌘R to build and run
+4. Test features: speech recognition, text-to-speech, history, settings
 
 ### Running Tests
 
